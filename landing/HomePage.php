@@ -12,6 +12,7 @@
       href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/minty/bootstrap.min.css"
       integrity="sha384-H4X+4tKc7b8s4GoMrylmy2ssQYpDHoqzPa9aKXbDwPoPUA3Ra8PA5dGzijN+ePnH"
       crossorigin="anonymous">
+      
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -32,13 +33,16 @@
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <li class="nav-item">
+            <img src="../assets/images/logo.png" alt="Logo" style="width: 120px; height: 120px;">
+          </li>
         <div class="collapse navbar-collapse" id="navbarColor01">
 
-        
+
           <ul class="navbar-nav me-auto">
+            
             <li class="nav-item">
               <a class="nav-link active" href="#">Inicio
-                <span class="visually-hidden">(current)</span>
               </a>
             </li>
             <li class="nav-item">
@@ -75,6 +79,8 @@
         </div>
       </div>
     </nav>
+
+    
 
   </body>
 
